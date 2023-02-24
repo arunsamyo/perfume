@@ -1,0 +1,423 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+.li {
+  text-decoration: none;
+  color: #282c34;
+  margin-top: 25px;
+  font-size: 18px;
+  padding: 25px;
+}
+.s1{
+  color: #282c34;
+}
+.s1:hover{
+  color: burlywood;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  height: 70px;
+  margin-right: 200px;
+}
+.navIcon1 {
+  color: #282c34;
+  /* padding-left: 100px; */
+}
+.navIcon2 {
+  color: #282c34;
+}
+.navIcon3 {
+  color: #282c34;
+  padding-right: 25px;
+}
+
+.logo {
+  width: 30%;
+  height: 60px;
+  margin-left: 30px;
+  padding: 5px;
+}
+
+.shop {
+  height: 550px;
+  width: 1000px;
+  margin-left: 200px;
+}
+
+.service {
+  height: 550px;
+  width: 1000px;
+  margin-left: 300px;
+}
+.about {
+  height: 550px;
+  width: 1000px;
+  margin-left: 300px;
+}
+
+.blog {
+  height: 550px;
+  width: 1000px;
+  margin-left: 300px;
+}
+.image {
+  width: 100%;
+}
+
+.head {
+  text-align: center;
+  font-size: 50px;
+}
+
+.tagheading {
+  text-align: center;
+   font-size: 80px; 
+  font-weight: 700;
+  margin-bottom: 80px;
+}
+.servicecard{
+  border: 0px !important;
+ 
+}
+.tagheading1 {
+  text-align: center;
+   font-size: 80px; 
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.cilent1 {
+  margin-bottom: 80px;
+}
+.product {
+  /* margin-bottom: 80px; */
+  /* overflow: hidden; */
+}
+.product1 {
+   height: 200px;   
+}
+.popimage
+{
+  height: 50px;
+}
+.addcart{
+  border-radius: 40px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+.li:hover {
+  color: burlywood !important;
+  text-decoration: none;
+}
+
+.watch-image1 {
+   width: 100%;
+   height: 100%; 
+  margin-top: 10px;
+}
+
+.watch-container {
+  justify-content: center;
+  display: flex;
+  height: 500px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+ .button-shop {
+    background-color: black;
+    color: white;
+    width: 100px;
+    margin-top: 30px;
+    padding: 6px;
+  }
+.watch-contain{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.watch-image2 {
+   width: 100%; 
+  background-color: white;
+}
+.heading {
+  text-align: center;
+  margin-top: 30px;
+}
+.caro {
+  margin-bottom: 35px;
+}
+.new {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.news {
+  display: flex;
+}
+.servicecard1{
+  background-color: black;
+}
+.servicecard2{
+  background-color: black;
+}
+.news1 { 
+  background: linear-gradient(rgba(0 0 0 / 0.5), rgba(0 0 0 / 0.5)), url(./Assest/image/news.jpg);
+  background-repeat: no-repeat;
+}
+
+.news2 {
+  background: linear-gradient(rgba(0 0 0 / 0.5), rgba(0 0 0 / 0.5)), url(./Assest/image/news1.jpg);
+  background-repeat: no-repeat;
+}
+
+.readbutton {
+  background-color: black;
+  color: white;
+  margin-top: 30px;
+   padding: 10px; 
+}
+.newhead1 {
+  color: white;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.newhead5 {
+  color: burlywood ;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+.newhead2 {
+  color: white;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.newhead3 {
+  color: white;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.newcontain
+{
+  text-align: center;
+}
+
+.security {
+
+  background: linear-gradient(rgba(0 0 0 / 0.5), rgba(0 0 0 / 0.5)), url(./Assest/image/scurity.jpg);
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
+  background-attachment: fixed;
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.security1 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+.security2 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  font-weight: 700px;
+  font-size: 70px;
+}
+
+.security3 {
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.showbutton {
+  background-color: rgb(244, 154, 36);
+  color: white;
+  margin-top: 40px; 
+  height: 50px;
+  padding: 0, 15px; 
+}
+.itFIxex {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.tag{
+  margin-top: 80px;
+  text-align: center;
+}
+.inputtxt{
+  color: #282c34;
+}
+.inputtext{
+  width: 50%;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.submitbutton{
+  padding: 7px;
+  background-color: black;
+  color: white; 
+}
+.footer{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+  background-image: url(./Assest/image/footerback.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom:80px ;
+}
+.footer-icon{
+   margin-left: 40px; 
+  margin-top: 30px;
+}
+.icon{
+  margin-right: 5px;
+  margin-left: 8px;
+}
+.footercontain{
+   margin-top: 40px;
+   margin-left: 30px;  
+}
+.support
+{
+   margin-right: 35px; 
+}
+.contactimage
+{
+  
+  background: linear-gradient(rgba(0 0 0 / 0.8), rgba(0 0 0 / 0.8)), url(./Assest/image/backcon.jpg);
+  height: 500px;
+  width: 100%;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+}
+
+.contactheading{
+  color: white;
+}
+.sendbutton
+{
+  color: white;
+  background-color: peru;
+  padding: 10px 8vw ;
+  border: 0PX;
+  
+}
+.contancttag{
+  font-weight: 100px;
+}
+
+.phoneicon
+{
+  font-size: 40px;
+  text-align: center;
+}
+.phoneicon1
+{
+  font-size: 40px;
+  color: white;
+   padding: 3px; 
+   font-size: 32px; 
+   border-radius: 5px;
+}
+.eightyk{
+  font-size: 40px;
+  font-weight: 900;
+}
+.imgbox{
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 1px solid black;
+}
+.tcolor{
+  color: chocolate;
+}
+.pfont{
+  font-size: 40px;
+  font-weight: bolder;
+}
+.card{
+  border: 1px solid black;
+}
+.blogimag1{
+  height: 80px;
+  width: 100px;
+}
+.blogimag3{
+  height: 270px;
+   width: 100%; 
+}
+.bestimage{
+  height: 400px;
+  width: 400px;
+}
+
+ @media screen and (max-width: 768px) {
+  .tagheading {
+    font-size: 30px;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .tagheading1 {
+    font-size: 30px;
+  }
+} 
+@media screen and (max-width: 768px) {
+  .new {
+    font-size: 30px;
+  }
+}
